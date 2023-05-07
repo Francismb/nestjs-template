@@ -8,12 +8,6 @@ export class AppController {
     private readonly logger: Logger,
   ) {
     logger.log('Using v3');
-    const a = [];
-    for (let i = 0; i < 90000000000; i++) {
-      for (let x = 0; x < 9000000000; x++) {
-        a.push(i);
-      }
-    }
   }
 
   @Get()
