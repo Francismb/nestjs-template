@@ -1,8 +1,8 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
-import fs from 'fs';
-import crypto from 'crypto';
+import * as fs from 'fs';
+import * as crypto from 'crypto';
 
 const generateRandomData = (size) => {
   return new Promise((resolve, reject) => {
